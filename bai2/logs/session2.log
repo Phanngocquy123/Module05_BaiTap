@@ -1,0 +1,200 @@
+[2024-04-05T00:56:50.767] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting Bai2Application using Java 17.0.9 with PID 16012 (D:\09_JAVA\05_module_05\BT_Module5\bai2\build\classes\java\main started by Admin in D:\09_JAVA\05_module_05\BT_Module5\bai2)
+[2024-04-05T00:56:50.773] [org.springframework.boot.SpringApplication] [main] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-04-05T00:56:52.537] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [139] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-05T00:56:52.722] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [208] [INFO ] Finished Spring Data repository scanning in 166 ms. Found 1 JPA repository interface.
+[2024-04-05T00:56:53.848] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [109] [INFO ] Tomcat initialized with port 6789 (http)
+[2024-04-05T00:56:53.865] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-6789"]
+[2024-04-05T00:56:53.871] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2024-04-05T00:56:53.872] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-04-05T00:56:54.026] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-04-05T00:56:54.026] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [296] [INFO ] Root WebApplicationContext: initialization completed in 3070 ms
+[2024-04-05T00:56:54.337] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-05T00:56:54.493] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-05T00:56:54.620] [org.hibernate.cache.internal.RegionFactoryInitiator] [main] [50] [INFO ] HHH000026: Second-level cache disabled
+[2024-04-05T00:56:55.293] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [main] [87] [INFO ] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-05T00:56:55.346] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2024-04-05T00:56:56.041] [com.zaxxer.hikari.pool.HikariPool] [main] [565] [INFO ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e28dc96
+[2024-04-05T00:56:56.047] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2024-04-05T00:56:56.152] [org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl] [main] [153] [WARN ] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-04-05T00:56:57.988] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [58] [INFO ] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-05T00:56:58.002] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-05T00:56:58.534] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [232] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-05T00:56:59.223] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-6789"]
+[2024-04-05T00:56:59.262] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [241] [INFO ] Tomcat started on port 6789 (http) with context path '/bai2'
+[2024-04-05T00:56:59.283] [org.springframework.boot.StartupInfoLogger] [main] [56] [INFO ] Started Bai2Application in 9.423 seconds (process running for 11.832)
+[2024-04-05T00:57:44.150] [org.apache.juli.logging.DirectJDKLog] [http-nio-6789-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-05T00:57:44.151] [org.springframework.web.servlet.FrameworkServlet] [http-nio-6789-exec-2] [532] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2024-04-05T00:57:44.153] [org.springframework.web.servlet.FrameworkServlet] [http-nio-6789-exec-2] [554] [INFO ] Completed initialization in 2 ms
+[2024-04-05T00:57:44.255] [com.example.bai2.controller.ProductController] [http-nio-6789-exec-2] [26] [INFO ] ProductsController get with request key=null, batch=null
+[2024-04-05T01:00:59.139] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting Bai2Application using Java 17.0.9 with PID 9536 (D:\09_JAVA\05_module_05\BT_Module5\bai2\build\classes\java\main started by Admin in D:\09_JAVA\05_module_05\BT_Module5\bai2)
+[2024-04-05T01:00:59.153] [org.springframework.boot.SpringApplication] [main] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-04-05T01:01:01.648] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [139] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-05T01:01:01.905] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [208] [INFO ] Finished Spring Data repository scanning in 234 ms. Found 1 JPA repository interface.
+[2024-04-05T01:01:05.467] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [109] [INFO ] Tomcat initialized with port 6789 (http)
+[2024-04-05T01:01:05.494] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-6789"]
+[2024-04-05T01:01:05.499] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2024-04-05T01:01:05.501] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-04-05T01:01:05.823] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-04-05T01:01:05.824] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [296] [INFO ] Root WebApplicationContext: initialization completed in 6397 ms
+[2024-04-05T01:01:06.408] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-05T01:01:06.653] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-05T01:01:06.801] [org.hibernate.cache.internal.RegionFactoryInitiator] [main] [50] [INFO ] HHH000026: Second-level cache disabled
+[2024-04-05T01:01:07.655] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [main] [87] [INFO ] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-05T01:01:07.731] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2024-04-05T01:01:09.224] [com.zaxxer.hikari.pool.HikariPool] [main] [565] [INFO ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b6262bc
+[2024-04-05T01:01:09.240] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2024-04-05T01:01:09.449] [org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl] [main] [153] [WARN ] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-04-05T01:01:14.187] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [58] [INFO ] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-05T01:01:14.296] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-05T01:01:15.854] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [232] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-05T01:01:19.011] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-6789"]
+[2024-04-05T01:01:19.069] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [241] [INFO ] Tomcat started on port 6789 (http) with context path '/bai2'
+[2024-04-05T01:01:19.096] [org.springframework.boot.StartupInfoLogger] [main] [56] [INFO ] Started Bai2Application in 21.278 seconds (process running for 25.39)
+[2024-04-05T01:01:41.127] [org.apache.juli.logging.DirectJDKLog] [http-nio-6789-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-05T01:01:41.127] [org.springframework.web.servlet.FrameworkServlet] [http-nio-6789-exec-2] [532] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2024-04-05T01:01:41.131] [org.springframework.web.servlet.FrameworkServlet] [http-nio-6789-exec-2] [554] [INFO ] Completed initialization in 3 ms
+[2024-04-05T01:01:41.335] [com.example.bai2.controller.ProductController] [http-nio-6789-exec-2] [26] [INFO ] ProductsController get with request key=null, batch=null
+[2024-04-05T01:02:52.680] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting Bai2Application using Java 17.0.9 with PID 13296 (D:\09_JAVA\05_module_05\BT_Module5\bai2\build\classes\java\main started by Admin in D:\09_JAVA\05_module_05\BT_Module5\bai2)
+[2024-04-05T01:02:52.687] [org.springframework.boot.SpringApplication] [main] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-04-05T01:02:54.960] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [139] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-05T01:02:55.124] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [208] [INFO ] Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interface.
+[2024-04-05T01:02:56.362] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [109] [INFO ] Tomcat initialized with port 6789 (http)
+[2024-04-05T01:02:56.382] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-6789"]
+[2024-04-05T01:02:56.385] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2024-04-05T01:02:56.386] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-04-05T01:02:56.533] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-04-05T01:02:56.534] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [296] [INFO ] Root WebApplicationContext: initialization completed in 3714 ms
+[2024-04-05T01:02:56.888] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-05T01:02:57.039] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-05T01:02:57.141] [org.hibernate.cache.internal.RegionFactoryInitiator] [main] [50] [INFO ] HHH000026: Second-level cache disabled
+[2024-04-05T01:02:57.720] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [main] [87] [INFO ] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-05T01:02:57.777] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2024-04-05T01:02:58.606] [com.zaxxer.hikari.pool.HikariPool] [main] [565] [INFO ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15f2a43f
+[2024-04-05T01:02:58.615] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2024-04-05T01:02:58.740] [org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl] [main] [153] [WARN ] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-04-05T01:03:01.407] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [58] [INFO ] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-05T01:03:01.417] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-05T01:03:02.007] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [232] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-05T01:03:02.817] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-6789"]
+[2024-04-05T01:03:02.864] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [241] [INFO ] Tomcat started on port 6789 (http) with context path '/bai2'
+[2024-04-05T01:03:02.883] [org.springframework.boot.StartupInfoLogger] [main] [56] [INFO ] Started Bai2Application in 11.414 seconds (process running for 13.694)
+[2024-04-05T01:03:30.920] [org.apache.juli.logging.DirectJDKLog] [http-nio-6789-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-05T01:03:30.922] [org.springframework.web.servlet.FrameworkServlet] [http-nio-6789-exec-1] [532] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2024-04-05T01:03:30.924] [org.springframework.web.servlet.FrameworkServlet] [http-nio-6789-exec-1] [554] [INFO ] Completed initialization in 2 ms
+[2024-04-05T01:03:31.055] [com.example.bai2.controller.ProductController] [http-nio-6789-exec-1] [26] [INFO ] ProductsController get with request key={pro}, batch=null
+[2024-04-05T01:03:38.409] [com.example.bai2.controller.ProductController] [http-nio-6789-exec-4] [26] [INFO ] ProductsController get with request key={pro}, batch=null
+[2024-04-05T01:07:10.742] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting Bai2Application using Java 17.0.9 with PID 7296 (D:\09_JAVA\05_module_05\BT_Module5\bai2\build\classes\java\main started by Admin in D:\09_JAVA\05_module_05\BT_Module5\bai2)
+[2024-04-05T01:07:10.761] [org.springframework.boot.SpringApplication] [main] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-04-05T01:07:15.082] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [139] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-05T01:07:15.271] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [208] [INFO ] Finished Spring Data repository scanning in 174 ms. Found 1 JPA repository interface.
+[2024-04-05T01:07:16.607] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [109] [INFO ] Tomcat initialized with port 6789 (http)
+[2024-04-05T01:07:16.626] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-6789"]
+[2024-04-05T01:07:16.630] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2024-04-05T01:07:16.631] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-04-05T01:07:16.806] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-04-05T01:07:16.807] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [296] [INFO ] Root WebApplicationContext: initialization completed in 5913 ms
+[2024-04-05T01:07:17.153] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-05T01:07:17.288] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-05T01:07:17.388] [org.hibernate.cache.internal.RegionFactoryInitiator] [main] [50] [INFO ] HHH000026: Second-level cache disabled
+[2024-04-05T01:07:18.174] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [main] [87] [INFO ] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-05T01:07:18.226] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2024-04-05T01:07:19.156] [com.zaxxer.hikari.pool.HikariPool] [main] [565] [INFO ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79604abe
+[2024-04-05T01:07:19.162] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2024-04-05T01:07:19.337] [org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl] [main] [153] [WARN ] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-04-05T01:07:22.503] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [58] [INFO ] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-05T01:07:22.513] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-05T01:07:23.174] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [232] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-05T01:07:24.270] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-6789"]
+[2024-04-05T01:07:24.327] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [241] [INFO ] Tomcat started on port 6789 (http) with context path '/bai2'
+[2024-04-05T01:07:24.366] [org.springframework.boot.StartupInfoLogger] [main] [56] [INFO ] Started Bai2Application in 14.798 seconds (process running for 18.838)
+[2024-04-05T01:08:06.850] [org.apache.juli.logging.DirectJDKLog] [http-nio-6789-exec-3] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-05T01:08:06.851] [org.springframework.web.servlet.FrameworkServlet] [http-nio-6789-exec-3] [532] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2024-04-05T01:08:06.853] [org.springframework.web.servlet.FrameworkServlet] [http-nio-6789-exec-3] [554] [INFO ] Completed initialization in 2 ms
+[2024-04-05T01:08:06.997] [com.example.bai2.controller.ProductController] [http-nio-6789-exec-3] [26] [INFO ] ProductsController get with request key=null, batch=null
+[2024-04-05T01:09:38.076] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting Bai2Application using Java 17.0.9 with PID 6104 (D:\09_JAVA\05_module_05\BT_Module5\bai2\build\classes\java\main started by Admin in D:\09_JAVA\05_module_05\BT_Module5\bai2)
+[2024-04-05T01:09:38.084] [org.springframework.boot.SpringApplication] [main] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-04-05T01:09:41.073] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [139] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-05T01:09:41.282] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [208] [INFO ] Finished Spring Data repository scanning in 185 ms. Found 1 JPA repository interface.
+[2024-04-05T01:10:02.525] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting Bai2Application using Java 17.0.9 with PID 1464 (D:\09_JAVA\05_module_05\BT_Module5\bai2\build\classes\java\main started by Admin in D:\09_JAVA\05_module_05\BT_Module5\bai2)
+[2024-04-05T01:10:02.565] [org.springframework.boot.SpringApplication] [main] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-04-05T01:10:04.824] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [139] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-05T01:10:05.028] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [208] [INFO ] Finished Spring Data repository scanning in 190 ms. Found 1 JPA repository interface.
+[2024-04-05T01:10:07.086] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [109] [INFO ] Tomcat initialized with port 6789 (http)
+[2024-04-05T01:10:07.105] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-6789"]
+[2024-04-05T01:10:07.115] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2024-04-05T01:10:07.116] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-04-05T01:10:07.256] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-04-05T01:10:07.256] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [296] [INFO ] Root WebApplicationContext: initialization completed in 4443 ms
+[2024-04-05T01:10:07.697] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-05T01:10:07.881] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-05T01:10:08.032] [org.hibernate.cache.internal.RegionFactoryInitiator] [main] [50] [INFO ] HHH000026: Second-level cache disabled
+[2024-04-05T01:10:09.029] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [main] [87] [INFO ] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-05T01:10:09.075] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2024-04-05T01:10:09.803] [com.zaxxer.hikari.pool.HikariPool] [main] [565] [INFO ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21f50d2c
+[2024-04-05T01:10:09.809] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2024-04-05T01:10:09.921] [org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl] [main] [153] [WARN ] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-04-05T01:10:12.149] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [58] [INFO ] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-05T01:10:12.162] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-05T01:10:12.993] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [232] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-05T01:10:14.256] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-6789"]
+[2024-04-05T01:10:14.302] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [241] [INFO ] Tomcat started on port 6789 (http) with context path '/bai2'
+[2024-04-05T01:10:14.329] [org.springframework.boot.StartupInfoLogger] [main] [56] [INFO ] Started Bai2Application in 13.223 seconds (process running for 16.727)
+[2024-04-05T01:10:41.228] [org.apache.juli.logging.DirectJDKLog] [http-nio-6789-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-05T01:10:41.229] [org.springframework.web.servlet.FrameworkServlet] [http-nio-6789-exec-1] [532] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2024-04-05T01:10:41.232] [org.springframework.web.servlet.FrameworkServlet] [http-nio-6789-exec-1] [554] [INFO ] Completed initialization in 2 ms
+[2024-04-05T01:10:41.372] [com.example.bai2.controller.ProductController] [http-nio-6789-exec-1] [26] [INFO ] ProductsController get with request key=null, batch=null
+[2024-04-05T01:10:50.624] [com.example.bai2.controller.ProductController] [http-nio-6789-exec-4] [26] [INFO ] ProductsController get with request key=null, batch=null
+[2024-04-05T01:12:12.082] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting Bai2Application using Java 17.0.9 with PID 6900 (D:\09_JAVA\05_module_05\BT_Module5\bai2\build\classes\java\main started by Admin in D:\09_JAVA\05_module_05\BT_Module5\bai2)
+[2024-04-05T01:12:12.088] [org.springframework.boot.SpringApplication] [main] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-04-05T01:12:14.967] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [139] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-05T01:12:16.119] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [208] [INFO ] Finished Spring Data repository scanning in 1126 ms. Found 1 JPA repository interface.
+[2024-04-05T01:12:20.254] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [109] [INFO ] Tomcat initialized with port 6789 (http)
+[2024-04-05T01:12:20.287] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-6789"]
+[2024-04-05T01:12:20.298] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2024-04-05T01:12:20.299] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-04-05T01:12:20.541] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-04-05T01:12:20.544] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [296] [INFO ] Root WebApplicationContext: initialization completed in 8315 ms
+[2024-04-05T01:12:21.304] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-05T01:12:21.603] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-05T01:12:21.777] [org.hibernate.cache.internal.RegionFactoryInitiator] [main] [50] [INFO ] HHH000026: Second-level cache disabled
+[2024-04-05T01:12:22.965] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [main] [87] [INFO ] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-05T01:12:23.120] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2024-04-05T01:12:25.418] [com.zaxxer.hikari.pool.HikariPool] [main] [565] [INFO ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e81617a
+[2024-04-05T01:12:25.429] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2024-04-05T01:12:25.607] [org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl] [main] [153] [WARN ] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-04-05T01:12:28.908] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [58] [INFO ] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-05T01:12:28.930] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-05T01:12:30.306] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [232] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-05T01:12:32.066] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-6789"]
+[2024-04-05T01:12:32.218] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [241] [INFO ] Tomcat started on port 6789 (http) with context path '/bai2'
+[2024-04-05T01:12:32.278] [org.springframework.boot.StartupInfoLogger] [main] [56] [INFO ] Started Bai2Application in 21.31 seconds (process running for 23.723)
+[2024-04-05T01:13:07.516] [org.apache.juli.logging.DirectJDKLog] [http-nio-6789-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-05T01:13:07.518] [org.springframework.web.servlet.FrameworkServlet] [http-nio-6789-exec-2] [532] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2024-04-05T01:13:07.524] [org.springframework.web.servlet.FrameworkServlet] [http-nio-6789-exec-2] [554] [INFO ] Completed initialization in 5 ms
+[2024-04-05T01:13:59.316] [org.springframework.boot.StartupInfoLogger] [main] [50] [INFO ] Starting Bai2Application using Java 17.0.9 with PID 12732 (D:\09_JAVA\05_module_05\BT_Module5\bai2\build\classes\java\main started by Admin in D:\09_JAVA\05_module_05\BT_Module5\bai2)
+[2024-04-05T01:13:59.321] [org.springframework.boot.SpringApplication] [main] [654] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2024-04-05T01:14:00.943] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [139] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-05T01:14:01.390] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [208] [INFO ] Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interface.
+[2024-04-05T01:14:02.550] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [109] [INFO ] Tomcat initialized with port 6789 (http)
+[2024-04-05T01:14:02.569] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-6789"]
+[2024-04-05T01:14:02.574] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2024-04-05T01:14:02.574] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/10.1.19]
+[2024-04-05T01:14:02.729] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2024-04-05T01:14:02.729] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [296] [INFO ] Root WebApplicationContext: initialization completed in 3269 ms
+[2024-04-05T01:14:03.073] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-05T01:14:03.219] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-05T01:14:03.350] [org.hibernate.cache.internal.RegionFactoryInitiator] [main] [50] [INFO ] HHH000026: Second-level cache disabled
+[2024-04-05T01:14:03.875] [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] [main] [87] [INFO ] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-05T01:14:03.925] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2024-04-05T01:14:04.740] [com.zaxxer.hikari.pool.HikariPool] [main] [565] [INFO ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31940704
+[2024-04-05T01:14:04.747] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2024-04-05T01:14:04.855] [org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl] [main] [153] [WARN ] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2024-04-05T01:14:06.838] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [58] [INFO ] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-05T01:14:06.848] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-05T01:14:07.391] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [232] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-05T01:14:08.158] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-6789"]
+[2024-04-05T01:14:08.195] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [241] [INFO ] Tomcat started on port 6789 (http) with context path '/bai2'
+[2024-04-05T01:14:08.219] [org.springframework.boot.StartupInfoLogger] [main] [56] [INFO ] Started Bai2Application in 9.959 seconds (process running for 12.058)
+[2024-04-05T01:14:29.037] [org.apache.juli.logging.DirectJDKLog] [http-nio-6789-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-05T01:14:29.038] [org.springframework.web.servlet.FrameworkServlet] [http-nio-6789-exec-1] [532] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2024-04-05T01:14:29.041] [org.springframework.web.servlet.FrameworkServlet] [http-nio-6789-exec-1] [554] [INFO ] Completed initialization in 1 ms
