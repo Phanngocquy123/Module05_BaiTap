@@ -12,7 +12,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 @Controller
 @RequiredArgsConstructor
-@CrossOrigin
 public class HomeController {
     private final IProductService productService;
     @RequestMapping // mapping http://localhost:8888/
