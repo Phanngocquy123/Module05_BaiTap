@@ -1,0 +1,12 @@
+
+server:
+    port: 6789
+spring:
+    security:
+        oauth2:
+            client:
+                registration:
+                    google:
+                        clientId: 342560043066-j2c2c7et2nuonduh627a9oni01st2ncf.apps.googleusercontent.com
+                        clientSecret: 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
+                        redirect-uri: http://localhost:6789/login/oauth2/code/google
