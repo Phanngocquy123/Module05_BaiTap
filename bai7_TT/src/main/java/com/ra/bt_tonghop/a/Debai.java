@@ -1,4 +1,4 @@
-package com.ra.bt_tonghop.Debai;
+package com.ra.bt_tonghop.a;
 
 public class Debai {
 //    Sử dụng database store_manager,

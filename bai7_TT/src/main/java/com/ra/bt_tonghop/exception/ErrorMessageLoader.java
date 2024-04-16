@@ -1,4 +1,4 @@
-package com.example.bai2.exception;
+package com.ra.bt_tonghop.exception;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,6 +24,7 @@ public class ErrorMessageLoader {
                             e -> e.getKey().toString(),
                             e -> e.getValue().toString()
                     ));
+            errorMap.put("error.permission","Bạn không có quền thêm đơn hàng");
         } catch (Exception ex) {
             LOGGER.error("ErrorMessageLoader load message failed with ex: {}", ex.getMessage());
         }
@@ -32,3 +33,4 @@ public class ErrorMessageLoader {
         return errorMap.get(errorCode);
     }
 }
+
