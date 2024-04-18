@@ -18,6 +18,7 @@ public class BillsEntity {
     private EmployeesEntity employeesByEmpIdAuth;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "Bill_Id")
     public long getBillId() {
         return billId;

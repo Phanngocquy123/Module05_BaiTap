@@ -1,11 +1,14 @@
 package com.ra.bt_tonghop.api;
 
 import com.ra.bt_tonghop.entity.BillsEntity;
+import com.ra.bt_tonghop.entity.dto.BillCreationResult;
+import com.ra.bt_tonghop.entity.dto.BillRequest;
 import com.ra.bt_tonghop.exception.BaseException;
 import com.ra.bt_tonghop.exception.ErrorMessageLoader;
 import com.ra.bt_tonghop.service.BillService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.ui.Model;
@@ -27,20 +30,6 @@ public class OrderApi {
         }
         return ResponseEntity.ok(allBills);
     }
-
-    @PostMapping("/orders/create")
-    public BillsEntity doCreate(@RequestBody BillsEntity billsEntity) {
-        // Lấy thông tin xác thực của người dùng hiện tại
-        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-
-        if (authentication != null && authentication.getAuthorities().stream().anyMatch(x -> x.getAuthority().equals("ROLE_CREATE"))) {
-            return billService.addBill(billsEntity);
-        } else {
-            String errorMessage = errorMessageLoader.getMessage("RA-00-500");
-            throw new BaseException(errorMessage);
-        }
-    }
-
     @PostMapping("/orders/approve")
     public ResponseEntity<BillsEntity> doApprove(@RequestBody BillsEntity billsEntity) {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
@@ -58,5 +47,11 @@ public class OrderApi {
             String errorMessage = errorMessageLoader.getMessage("RA-00-500");
             throw new BaseException(errorMessage);
         }
+    }
+
+    @PostMapping("/orders/create")
+    @PreAuthorize("hasRole('CREATE')")
+    public BillCreationResult doCreate(@RequestBody BillRequest billRequest) throws Exception {
+        return billService.addBill(billRequest);
     }
 }

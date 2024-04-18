@@ -10,6 +10,13 @@ create table products(
     Quantity int not null default 0,
     Product_Status bit default 1
 );
+insert into products (Product_Id, Product_Name, Manufacturer, Batch, Product_Status) values
+    ('P001', 'Product 1', 'Manufacturer A', 100, 1),
+    ('P002', 'Product 2', 'Manufacturer B', 150, 1),
+    ('P003', 'Product 3', 'Manufacturer C', 200, 1)
+;
+select * from products;
+
 drop table if exists employees;
 create table employees(
 	Emp_Id char(5) primary key,
@@ -20,6 +27,11 @@ create table employees(
     Address text not null,
     Emp_Status smallint not null
 );
+insert into employees (Emp_Id, Emp_Name, Birth_Of_Date, Email, Phone, Address, Emp_Status) values
+('EMP01', 'John Doe', '1990-05-15', 'john@example.com', '123456789', '123 Main St, City', 1),
+('EMP02', 'Jane Smith', '1992-08-25', 'jane@example.com', '987654321', '456 Elm St, Town', 1),
+('EMP03', 'Alice Johnson', '1988-03-10', 'alice@example.com', '555555555', '789 Oak St, Village', 1)
+;
 
 drop table if exists accounts;
 create table accounts(
@@ -30,6 +42,7 @@ create table accounts(
     Emp_Id char(5) not null unique,
     Acc_Status bit default 1
 );
+
 
 drop table if exists bills;
 create table bills(
@@ -48,6 +61,7 @@ create table bills(
 );
 select * from bills;
 
+
 drop table if exists bill_details;
 create table bill_details(
     Bill_Detail_Id bigint primary key auto_increment,
@@ -60,6 +74,7 @@ create table bill_details(
     CONSTRAINT FK_Bills FOREIGN KEY (Bill_Id)
         REFERENCES bills(Bill_Id)
 );
+select * from bill_details;
 --
 create table users(	
 id varchar(36) primary key,    
@@ -93,4 +108,13 @@ select * from user_role;
 insert into user_role values 
 ('2f47a700-ec75-42dd-8312-d4ad69370afb', '3341abed-fbee-11ee-a9c5-847beb137679'),
 ('1adeb401-12fa-4ef5-b277-be043a2aaf4c','3340d0ea-fbee-11ee-a9c5-847beb137679')
+;
+
+select u.id as user_id,
+    u.username as username,
+    r.id as role_id,
+    r.name as role_name
+from users u
+inner join user_role ur on u.id = ur.userId
+inner join roles r on ur.roleId = r.id
 ;

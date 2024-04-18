@@ -14,6 +14,7 @@ public class BillDetailsEntity {
     private ProductsEntity productsByProductId;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "Bill_Detail_Id")
     public long getBillDetailId() {
         return billDetailId;
